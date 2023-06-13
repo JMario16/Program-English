@@ -1,0 +1,333 @@
+<html>
+<head><title>Programa de ingles</title>
+
+<style>
+p{
+margin-bottom: 0;
+margin-top: 0; }
+
+img{
+border: solid;
+border-width: 5px;
+border-color: #8E5C0F; }
+
+body{
+margin: 0;
+background-color: #F1C40F;
+font-weight: bold;
+font-size: 19px;
+font-family: palatino, serif; }
+
+div{
+margin-bottom: 0;
+background-color: #8E5C0F;
+color: #F1C40F; }
+
+#text1{
+color: whitesmoke;
+transition: color 0.2s ease; }
+
+#text2{
+color: whitesmoke;
+transition: color 0.2s ease; }
+
+#text3{
+color: whitesmoke;
+transition: color 0.2s ease; }
+
+#text4{
+color: whitesmoke;
+transition: color 0.2s ease; }
+
+#text5{
+color: whitesmoke;
+transition: color 0.2s ease; }
+
+#text6{
+color: whitesmoke;
+transition: color 0.2s ease; }
+</style></head>
+
+<body>
+<div><h1 align="center" style="margin-bottom: 0;">Pesticides Neonicotinoids and their impact on bees</h1></div>
+
+<hr size="4" color="white" style="margin-bottom: 0; margin-top: 0;"><br><hr size="4" color="white" style="margin-bottom: 0;">
+<h2 align="center" style="color: #F1C40F; background-color: #8E5C0F; margin-bottom: 0; margin-top: 0;">Introduction</h2>
+<hr size="4" color="white" style="margin-top: 0;"><br>
+
+<p id="text1">
+&nbsp;&nbsp;Bees play a crucial role in pollination, contributing to the global food supply and ecosystem sustainability. They are found in all ecosystems where &nbsp;&nbsp;there are flowering plants that need pollinators. Generally, the function of pollination is divided between different species and the most common is &nbsp;&nbsp;that this work is done by species that can pollinate many types of plants. In recent years, concerns have emerged regarding the decline of bee &nbsp;&nbsp;populations and its potential ramifications. One major factor under scrutiny is the use of neonicotinoid insecticides.</p><br>
+
+<p align="center"><audio id="audio1" src="audio1 Mario.mp3" controls="controls"></audio><br></p>
+
+<script>
+window.addEventListener('DOMContentLoaded', function(){
+var audio=document.getElementById('audio1');
+var text=document.getElementById('text1');
+var coloredIndices=[];
+  
+audio.addEventListener('timeupdate', function(){
+var currentTime=audio.currentTime;
+var textContent=text.innerText;
+var color=getColor(currentTime);
+var coloredText='';
+    
+for(var i=0; i<textContent.length; i++){
+if(coloredIndices.includes(i)) {
+coloredText+='<span style="color: '+color+';">'+textContent[i]+'</span>';
+} else{
+coloredText+=textContent[i]; } }
+text.innerHTML=coloredText;
+    
+var groupIndex=Math.floor(currentTime);
+var endIndex=(groupIndex+1)*13;
+for(var j=groupIndex*13; j<endIndex; j++){
+if(!coloredIndices.includes(j)){
+coloredIndices.push(j);
+} } });
+  
+function getColor(currentTime){
+var colorIndex=Math.floor(currentTime)%1;
+var colors=['#8E5C0F'];
+return colors[colorIndex];
+} });
+
+</script>
+
+<br><hr size="4" color="white" style="margin-bottom: 0;">
+<h2 align="center" style="color: #F1C40F; background-color: #8E5C0F; margin-bottom: 0; margin-top: 0;">Functions and benefits</h2>
+<hr size="4" color="white" style="margin-top: 0;"><br>
+
+<p id="text2">
+&nbsp;&nbsp;Bees are the most important agents in our ecosystem, about eighty-four percent of the commercial crops that feed humanity depend on them. Its &nbsp;&nbsp;main function is to carry out a pollen exchange between the flowers, helping its reproduction.
+</p><br>
+
+<p align="center"><audio id="audio2" src="audio2 Mario.mp3" controls="controls"></audio><br><br>
+<table cellpadding="20"><tr>
+<td><img src="bee2.jpg" width="500" height="170"></td>
+<td><img src="bee5.jpg" width="500" height="350"></td>
+</tr></table></p>
+
+<script>
+window.addEventListener('DOMContentLoaded', function(){
+var audio=document.getElementById('audio2');
+var text=document.getElementById('text2');
+var coloredIndices=[];
+  
+audio.addEventListener('timeupdate', function(){
+var currentTime=audio.currentTime;
+var textContent=text.innerText;
+var color=getColor(currentTime);
+var coloredText='';
+    
+for(var i=0; i<textContent.length; i++){
+if(coloredIndices.includes(i)) {
+coloredText+='<span style="color: '+color+';">'+textContent[i]+'</span>';
+} else{
+coloredText+=textContent[i]; } }
+text.innerHTML=coloredText;
+    
+var groupIndex=Math.floor(currentTime);
+var endIndex=(groupIndex+1)*12;
+for(var j=groupIndex*12; j<endIndex; j++){
+if(!coloredIndices.includes(j)){
+coloredIndices.push(j);
+} } });
+  
+function getColor(currentTime){
+var colorIndex=Math.floor(currentTime)%1;
+var colors=['#8E5C0F'];
+return colors[colorIndex];
+} });
+
+</script>
+
+<br><hr size="4" color="white" style="margin-bottom: 0;">
+<h2 align="center" style="color: #F1C40F; background-color: #8E5C0F; margin-bottom: 0; margin-top: 0;">Neonicotinoids</h2>
+<hr size="4" color="white" style="margin-top: 0;"><br>
+
+<p id="text3">
+&nbsp;&nbsp;Neonicotinoids are widely used in agriculture and horticulture to protect crops from pests. The systemic nature of these pesticides means that they &nbsp;&nbsp;can accumulate in nectar, pollen, and other floral resources that are vital food sources for bees. Neonicotinoids belong a class of pesticides designed &nbsp;&nbsp;to target the nervous system of the insects. Pesticides are absorbed by plants and distributed throughout their tissues, making them particularly &nbsp;&nbsp;affective against pests. The mode of action of neonicotinoids involves binding to nicotinic acetylcholine receptors and in insects' nervous systems, &nbsp;&nbsp;causing hyperexcitation and paralysis.</p><br>
+
+<p align="center"><audio id="audio3" src="audio1 Caro.mp3" controls="controls"></audio><br><br>
+<table cellpadding="20"><tr>
+<td><img src="bee4.jpg" width="330" height="320"></td>
+<td><img src="bee1.jpg" width="330" height="250"></td>
+<td><img src="bee3.jpg" width="400" height="200"></td>
+</tr></table></p>
+
+<script>
+window.addEventListener('DOMContentLoaded', function(){
+var audio=document.getElementById('audio3');
+var text=document.getElementById('text3');
+var coloredIndices=[];
+  
+audio.addEventListener('timeupdate', function(){
+var currentTime=audio.currentTime;
+var textContent=text.innerText;
+var color=getColor(currentTime);
+var coloredText='';
+    
+for(var i=0; i<textContent.length; i++){
+if(coloredIndices.includes(i)) {
+coloredText+='<span style="color: '+color+';">'+textContent[i]+'</span>';
+} else{
+coloredText+=textContent[i]; } }
+text.innerHTML=coloredText;
+    
+var groupIndex=Math.floor(currentTime);
+var endIndex=(groupIndex+1)*15;
+for(var j=groupIndex*15; j<endIndex; j++){
+if(!coloredIndices.includes(j)){
+coloredIndices.push(j);
+} } });
+  
+function getColor(currentTime){
+var colorIndex=Math.floor(currentTime)%1;
+var colors=['#8E5C0F'];
+return colors[colorIndex];
+} });
+
+</script>
+
+<br><hr size="4" color="white" style="margin-bottom: 0;">
+<h2 align="center" style="color: #F1C40F; background-color: #8E5C0F; margin-bottom: 0; margin-top: 0;">Impact on Bee Health and Behavior
+</h2><hr size="4" color="white" style="margin-top: 0;"><br>
+
+<p id="text4">
+&nbsp;&nbsp;Numerous studies have highlighted the detrimental effects of neonicotinoids on bee health and behavior. Neonicotinoids, impact on bee navigation &nbsp;&nbsp;and foraging behavior. These pesticides exhibit impaired learning and memory, making it difficult find their way back home.</p><br>
+
+<p align="center"><audio id="audio4" src="audio2 Caro.mp3" controls="controls"></audio><br><br></p>
+
+<script>
+window.addEventListener('DOMContentLoaded', function(){
+var audio=document.getElementById('audio4');
+var text=document.getElementById('text4');
+var coloredIndices=[];
+  
+audio.addEventListener('timeupdate', function(){
+var currentTime=audio.currentTime;
+var textContent=text.innerText;
+var color=getColor(currentTime);
+var coloredText='';
+    
+for(var i=0; i<textContent.length; i++){
+if(coloredIndices.includes(i)) {
+coloredText+='<span style="color: '+color+';">'+textContent[i]+'</span>';
+} else{
+coloredText+=textContent[i]; } }
+text.innerHTML=coloredText;
+    
+var groupIndex=Math.floor(currentTime);
+var endIndex=(groupIndex+1)*17;
+for(var j=groupIndex*17; j<endIndex; j++){
+if(!coloredIndices.includes(j)){
+coloredIndices.push(j);
+} } });
+  
+function getColor(currentTime){
+var colorIndex=Math.floor(currentTime)%1;
+var colors=['#8E5C0F'];
+return colors[colorIndex];
+} });
+
+</script>
+
+<br><hr size="4" color="white" style="margin-bottom: 0;">
+<h2 align="center" style="color: #F1C40F; background-color: #8E5C0F; margin-bottom: 0; margin-top: 0;">
+Consequences from the extinction of bees</h2><hr size="4" color="white" style="margin-top: 0;"><br>
+
+<p id="text5">
+&nbsp;&nbsp;The disappearance of bees can drastically prevents reduce the reproduction of many plant species, this can result in loss of biodiversity and &nbsp;&nbsp;imbalance of ecosystems. Agricultural production also in risk, having a strong impact on the global economy. The use of neonicotinoids in &nbsp;&nbsp;agriculture and horticulture poses significant risks to bee populations. The consequences of bee extinction would be far-reaching. Bees play a vital &nbsp;&nbsp;role in pollinating many plant species, and their disappearance can lead to a reduction in plant reproduction, loss of biodiversity, and an imbalance &nbsp;&nbsp;in ecosystems. Additionally, agriculture heavily relies on bees for pollination, and their decline could have severe implications for global food &nbsp;&nbsp;production and the economy. Given the risks posed by neonicotinoids and the importance of bees for ecosystem stability, it is crucial to explore &nbsp;&nbsp;alternative pest control methods and promote sustainable agricultural practices that prioritize bee health and conservation.
+</p><br>
+
+<p align="center"><audio id="audio5" src="audio3 Caro.mp3" controls="controls"></audio><br><br>
+<table cellpadding="20"><tr>
+<td><img src="bee7.jpg" width="330" height="220"></td>
+</tr></table></p>
+
+<script>
+window.addEventListener('DOMContentLoaded', function(){
+var audio=document.getElementById('audio5');
+var text=document.getElementById('text5');
+var coloredIndices=[];
+  
+audio.addEventListener('timeupdate', function(){
+var currentTime=audio.currentTime;
+var textContent=text.innerText;
+var color=getColor(currentTime);
+var coloredText='';
+    
+for(var i=0; i<textContent.length; i++){
+if(coloredIndices.includes(i)) {
+coloredText+='<span style="color: '+color+';">'+textContent[i]+'</span>';
+} else{
+coloredText+=textContent[i]; } }
+text.innerHTML=coloredText;
+    
+var groupIndex=Math.floor(currentTime);
+var endIndex=(groupIndex+1)*17;
+for(var j=groupIndex*17; j<endIndex; j++){
+if(!coloredIndices.includes(j)){
+coloredIndices.push(j);
+} } });
+  
+function getColor(currentTime){
+var colorIndex=Math.floor(currentTime)%1;
+var colors=['#8E5C0F'];
+return colors[colorIndex];
+} });
+
+</script>
+
+<br><hr size="4" color="white" style="margin-bottom: 0;">
+<h2 align="center" style="color: #F1C40F; background-color: #8E5C0F; margin-bottom: 0; margin-top: 0;">Conclusion</h2>
+<hr size="4" color="white" style="margin-top: 0;"><br>
+
+<p id="text6">
+&nbsp;&nbsp;The use of neonicotinoid insecticides represents a significant threat to bee populations and the ecological balance they sustain. These systemic &nbsp;&nbsp;pesticides, although they are effective against pests, have proven to be highly detrimental to bee health, contributing to their disappearance.</p><br>
+
+<p align="center"><audio id="audio6" src="audio3 Mario.mp3" controls="controls"></audio><br><br>
+<table cellpadding="20"><tr>
+<td><img src="bee6.jpg" width="400" height="200"></td>
+</tr></table></p>
+
+<script>
+window.addEventListener('DOMContentLoaded', function(){
+var audio=document.getElementById('audio6');
+var text=document.getElementById('text6');
+var coloredIndices=[];
+  
+audio.addEventListener('timeupdate', function(){
+var currentTime=audio.currentTime;
+var textContent=text.innerText;
+var color=getColor(currentTime);
+var coloredText='';
+    
+for(var i=0; i<textContent.length; i++){
+if(coloredIndices.includes(i)) {
+coloredText+='<span style="color: '+color+';">'+textContent[i]+'</span>';
+} else{
+coloredText+=textContent[i]; } }
+text.innerHTML=coloredText;
+    
+var groupIndex=Math.floor(currentTime);
+var endIndex=(groupIndex+1)*12;
+for(var j=groupIndex*12; j<endIndex; j++){
+if(!coloredIndices.includes(j)){
+coloredIndices.push(j);
+} } });
+  
+function getColor(currentTime){
+var colorIndex=Math.floor(currentTime)%1;
+var colors=['#8E5C0F'];
+return colors[colorIndex];
+} });
+
+</script>
+
+<hr size="4" color="white" style="margin-bottom: 0; margin-top: 0;"><div><br>
+<h2 align="center" style="margin-bottom: 0; margin-top: 0;">Peña Ledesma José Mario y Gutierrez Valencia Carolina</h2><br></div>
+
+</body>
+</html>
